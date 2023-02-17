@@ -96,7 +96,7 @@ export default {
         checkPhone() {
             if (this.TheInput == "") {
                 this.TheInput = intlTelInput(this.$refs.phone, {
-                    utilsScript: "../src/assets/utils.js",
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js",
                     initialCountry: 'ir',
                 });
             }
@@ -114,6 +114,8 @@ export default {
         this.checkPhone();
     },
 };
+
+
 </script>
 
 <!-- 

@@ -133,7 +133,7 @@
 }
 </style>
 <!-- eslint-disable vue/no-unused-components -->
-<script>
+<script >
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import 'swiper/css';
 import GlobalMenu from '../../components/global/GlobalMenu.vue';
